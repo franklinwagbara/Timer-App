@@ -1,0 +1,92 @@
+body {
+  background-image: url("back1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-height: 100vh;
+}
+
+.count-down {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 60vh;
+  margin-top: -6rem;
+}
+
+.unit {
+  margin: 0 3rem;
+  line-height: 1.15rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.unit p {
+  font-size: 6rem;
+  font-weight: bolder;
+  margin: 0 0 2rem 0;
+}
+
+.unit span {
+  font-size: 2rem;
+}
+
+.settings {
+  height: 260px;
+  width: 300px;
+  right: 0;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.check-boxes {
+  display: none;
+}
+
+.enable {
+  position: relative;
+  top: 200px;
+  height: 40px;
+  width: 50%;
+  background-color: rgba(43, 145, 82, 0.685);
+  border-style: none;
+  color: antiquewhite;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.settings button:hover {
+  background-color: rgb(43, 145, 82);
+}
+
+.no-opaque {
+  position: relative;
+  top: 200px;
+  height: 40px;
+  width: 50%;
+  background-color: rgba(43, 145, 82, 1);
+  border-style: none;
+  color: antiquewhite;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.stop {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 1.5rem;
+  font-size: 5rem;
+  font-weight: 5rem;
+  color: red;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.stop {
+  opacity: 0;
+}

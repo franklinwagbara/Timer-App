@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
+    <title>Document</title>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="stop" id="stop">
+      <div><span>STOP!</span></div>
+    </div>
+    <div class="count-down">
+      <div class="unit">
+        <p id="hours">00</p>
+        <span>hours</span>
+      </div>
+      <div class="unit">
+        <p id="minutes">00</p>
+        <span>minutes</span>
+      </div>
+      <div class="unit">
+        <p id="seconds">00</p>
+        <span>seconds</span>
+      </div>
+    </div>
+    <div class="settings">
+      <div class="check-boxes" id="check-boxes">
+        <label>Set Time:</label>
+        <select name="hours" id="hour-select">
+          00
+        </select>
+        <span>HH</span>
+        <select name="minutes" id="minute-select">
+          00
+        </select>
+        <span>MM</span>
+        <select name="seconds" id="second-select">
+          00
+        </select>
+        <span>SS</span>
+      </div>
+      <button class="enable" id="enable">Enable</button>
+    </div>
+  </body>
+</html>
